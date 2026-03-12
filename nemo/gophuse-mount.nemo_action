@@ -1,0 +1,11 @@
+[Nemo Action]
+Active=true
+Name=Mount Gopher Server...
+Comment=Prompt for a Gopher host or URL and mount it with gophuse
+Icon-Name=folder-remote
+Selection=none
+Extensions=any;
+EscapeSpaces=true
+Dependencies=zenity;gophuse;
+Exec=sh -c "$HOME/.local/share/gophuse/nemo/gophuse-nemo-mount.sh"
+
