@@ -19,7 +19,7 @@ Where {ARCH} is, you have three install options:
 
 ```
 git clone https://github.com/humphreyboagart/gophuse
-cp gophuse/bin/gophuse-linux-{ARCH} ~/.local/bin/gophuse
+cp gophuse/bin/gophuse-{ARCH} ~/.local/bin/gophuse
 chmod 700 ~/.local/bin/gophuse
 ```
 
@@ -27,6 +27,6 @@ chmod 700 ~/.local/bin/gophuse
 
 ```
 git clone https://github.com/humphreyboagart/gophuse
-cp gophuse/bin/gophuse-linux-{ARCH} /usr/local/bin/gophuse
+cp gophuse/bin/gophuse-{ARCH} /usr/local/bin/gophuse
 chmod 755 /usr/local/bin/gophuse
 ```
