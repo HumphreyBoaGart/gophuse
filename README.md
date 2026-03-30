@@ -1,6 +1,6 @@
 # Gophuse
 
-Mounts a gopher:// server as a read-only filesystem in Linux using FUSE.
+Recklessly mount a remote gopher:// server as a read-only filesystem in Linux using FUSE.
 
 This tool was made for the [article on Gopher](https://bestpoint.institute/tools/gopher) at my wiki, just to show how easy it can be done. There used to be tools that did this many years ago, but they're all abandonware. Better to just rebuild the function as a modern Go binary with ChatGPT.
 
